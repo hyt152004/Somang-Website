@@ -34,18 +34,19 @@ function App() {
         <div className='header-content'>
           <img className="logo" src={logo} alt="Church Logo" />
           <h1 className='header-title'>
-            밴쿠버 소망교회 (Korean Foursquare Gospel Church)
+            밴쿠버 소망교회 
+            <br/>
+            (Korean Foursquare Gospel Church)
           </h1>
+          <h2 className='header-subtitle'>
+            원로목사: 남상국 담임목사: 홍석인
+          </h2>
+          <p className='header-contact'>
+            5825 Nelson Ave Burnaby BC V5H 3H6 / 604-437-5469
+          </p>
         </div>
-
-        <fieldset className="grid-container">
-          <legend>하나님 앞에서!</legend>
-          <h1>
-            예수님 이야기로 가득한 교회 
-            {/* 물결 필요 */}
-          </h1>
-        </fieldset>
       </div>
+
 
 
 
