@@ -40,8 +40,8 @@ function App() {
           </h1>
           <br/>
           <br/>
-          <h1 className='header-title'>
-          예수님 이야기로 가득한 교회 (italics this) (add dcolour to this (strong colour))
+          <h1 className='header-subtitle'>
+          예수님 이야기로 가득한 교회 
           </h1>
           {/* <h2 className='header-subtitle'>
             <span className='pastorName'>예수님 이야기로 가득한 교회</span>
