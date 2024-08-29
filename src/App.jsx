@@ -92,9 +92,10 @@ function App() {
       <fieldset className="grid-container">
         <legend>클릭! 찬양 / 설교 보기</legend>
         <div className="youtubeLinkContainer">
-          <a className='youtubeLink' href="https://www.youtube.com/@Jwpark57">https://www.youtube.com/@Jwpark57</a>
+          <a className='youtubeLink' href="https://www.youtube.com/@Jwpark57">링크로 가기!</a>
         </div>
       </fieldset>
+      
 
       <fieldset className="grid-container">
         <legend>교회 연락처</legend>
