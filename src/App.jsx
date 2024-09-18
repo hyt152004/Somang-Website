@@ -2,14 +2,13 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import logo from './images/homePage_logo.png';
-import churchImage from './images/bg2.jpeg';
-import image1 from './images/bg1.jpeg';  // Add your images here
-import image2 from './images/bg2.jpeg';  // Add your images here
-import image3 from './images/homePageBG.jpeg';  // Add your images here
-import cross_bible_bg from './images/cross_bible_bg.avif'
+
+const images = Object.values(import.meta.glob('./images/slideshowPictures/*.{jpeg,jpg,png}', { eager: true })).map(
+  (module) => module.default
+);
 
 function App() {
-  const images = [image1, image2, image3];  // Add all your images here
+  // const images = [image1, image2, image3];  
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Move to the next image every 5 seconds
@@ -43,9 +42,6 @@ function App() {
           <h1 className='header-subtitle'>
           예수님 이야기로 가득한 교회 
           </h1>
-          {/* <h2 className='header-subtitle'>
-            <span className='pastorName'>예수님 이야기로 가득한 교회</span>
-          </h2> */}
         </div>
       </div>
 
@@ -55,14 +51,12 @@ function App() {
       <fieldset className="grid-container">
         <legend>예배시간</legend>
           <p>주일 예배 : 오후 2시</p>
-          {/* make this bigger */}
           <p>소망 YG (Young Generation) : 오후 2시</p>
       </fieldset>
 
       <fieldset className="grid-container">
         <legend>기도회</legend>
           <p>아침기도회 : 아침 8시 (화~목)</p>
-          {/* make this bigger */}
           <p>금요기도회 : 저녁 8시</p>
       </fieldset>
 
@@ -73,7 +67,7 @@ function App() {
 
       <fieldset className="grid-container">
         <legend>교역자</legend>
-          <p>남상국 원로목사 / 홍석인 목사 / 노승수 목사 / 서주혜 전도사</p>
+          <p>남상국 원로목사 / 홍석인 목사 / 노승수 목사 / 서주혜 전도사 / 쥴리 정 전도사</p>
       </fieldset>
 
       <fieldset className="grid-container">
