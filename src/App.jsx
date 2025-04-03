@@ -51,13 +51,14 @@ function App() {
       <fieldset className="grid-container">
         <legend>예배시간</legend>
           <p>주일 예배 : 오후 2시</p>
-          <p>청년부 (Young Adult) : 오후 2시</p>
+          <p>소망 Y.L (Young Life) : 오후 3시 30분</p>
+          <p>소망 Y.A (Young Adult) : 오후 2시</p>
           <p>소망 YG (Young Generation) : 오후 2시</p>
       </fieldset>
 
       <fieldset className="grid-container">
         <legend>기도회</legend>
-          <p>아침기도회 : 아침 8시 (화~목)</p>
+          <p>아침기도회 : 아침 8시 (화), 11시 (수~목)</p>
           <p>금요기도회 : 저녁 8시</p>
       </fieldset>
 
