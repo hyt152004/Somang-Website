@@ -69,7 +69,7 @@ function App() {
 
       <fieldset className="grid-container">
         <legend>교역자</legend>
-          <p>남상국 원로목사 / 홍석인 목사 / 서주혜 전도사 / 쥴리 정 전도사</p>
+          <p>남상국 원로목사 / 홍석인 목사 / 노승수 목사 / 서주혜 전도사 / 쥴리 정 전도사</p>
       </fieldset>
 
       <fieldset className="grid-container">
