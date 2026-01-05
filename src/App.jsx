@@ -40,7 +40,7 @@ function App() {
           <br/>
           <br/>
           <h1 className='header-subtitle'>
-          예수님 이야기로 가득한 교회 
+          주님과 함께
           </h1>
         </div>
       </div>
@@ -51,7 +51,6 @@ function App() {
       <fieldset className="grid-container">
         <legend>예배시간</legend>
           <p>주일 예배 : 오후 2시</p>
-          <p>소망 Y.L (Young Life) : 오후 3시 30분</p>
           <p>소망 Y.A (Young Adult) : 오후 2시</p>
           <p>소망 YG (Young Generation) : 오후 2시</p>
       </fieldset>
