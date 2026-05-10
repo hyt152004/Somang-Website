@@ -166,13 +166,3 @@ function App() {
 }
 
 export default App;
-
-// change header colour
-// make login to add photos?
-// bible and cross background adjustment for small screen
-// think about how gallery can be implemented better
-// add box color. no white wanted
-// make a better system for slideshow
-
-// spacing between pastor name
-// make font size bigger
