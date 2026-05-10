@@ -10,7 +10,8 @@ body {
   margin: 0 auto;
 }
 
-p, a {
+p,
+a {
   font-size: 2.5em;
   font-weight: 600;
 }
@@ -24,7 +25,8 @@ p, a {
   min-height: 100vh;
   width: 100%;
   max-width: 100vw;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(124, 124, 124, 0.7)), url('images/cross_bible_bg.avif');
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(124, 124, 124, 0.7)),
+    url("images/cross_bible_bg.avif");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,8 +46,6 @@ p, a {
   height: auto;
   margin-bottom: 20px;
 }
-
-
 
 .header-title {
   font-size: 3.5rem;
@@ -172,10 +172,11 @@ p, a {
     font-size: 1.5rem;
   }
   .header {
-    background-position: 80% top; 
+    background-position: 80% top;
   }
 
-  p, a {
+  p,
+  a {
     font-size: 1.5em;
     font-weight: 600;
   }
@@ -204,8 +205,8 @@ p, a {
   .slideshow {
     position: relative;
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
-    height: auto;
+    max-width: 800px; /* Adjust as needed  */
+    /height: auto;
     aspect-ratio: 2 / 1; /* This maintains a 2:1 aspect ratio for the slideshow */
     margin: 20px auto;
     overflow: hidden;
@@ -213,7 +214,7 @@ p, a {
     border-radius: 10px;
     transition: border-color 0.3s ease;
   }
-  
+
   .slide-image {
     width: 100%;
     height: 100%;
@@ -224,9 +225,46 @@ p, a {
   }
 
   .youtubeLink {
-    font-size: 1.5em
+    font-size: 1.5em;
   }
-  
 }
 
+.ig-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
+.ig-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ig-header h3 {
+  margin: 0;
+}
+
+.ig-header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+.ig-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.ig-grid img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+
+.ig-grid img:hover {
+  transform: scale(1.03);
+}
