@@ -3,6 +3,11 @@ import "./App.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import logo from "./images/homePage_logo.png";
 
+import ig1 from "./images/YA-Instagram/photo_1.jpeg";
+import ig2 from "./images/YA-Instagram/photo_2.jpg";
+import ig3 from "./images/YA-Instagram/photo_3.jpeg";
+import ig4 from "./images/YA-Instagram/photo_4.jpeg";
+
 const images = Object.values(
   import.meta.glob("./images/slideshowPictures/*.{jpeg,jpg,png}", {
     eager: true,
@@ -119,28 +124,28 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/images/YA-Instagram/photo_1.jpeg" alt="ig post" />
+              <img src={ig1} alt="Instagram post 1" />
             </a>
             <a
               href="https://www.instagram.com/somang_ya/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/images/YA-Instagram/photo_2.jpg" alt="ig post" />
+              <img src={ig2} alt="Instagram post 2" />
             </a>
             <a
               href="https://www.instagram.com/somang_ya/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/images/YA-Instagram/photo_3.jpeg" alt="ig post" />
+              <img src={ig3} alt="Instagram post 3" />
             </a>
             <a
               href="https://www.instagram.com/somang_ya/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/images/YA-Instagram/photo_4.jpeg" alt="ig post" />
+              <img src={ig4} alt="Instagram post 4" />
             </a>
           </div>
         </div>
