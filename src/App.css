@@ -265,6 +265,12 @@ a {
   transition: 0.2s ease;
 }
 
+@media (max-width: 768px) {
+  .ig-grid img {
+    height: 140px;
+  }
+}
+
 .ig-grid img:hover {
   transform: scale(1.03);
 }
