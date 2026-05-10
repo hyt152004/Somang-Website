@@ -205,8 +205,8 @@ a {
   .slideshow {
     position: relative;
     width: 100%;
-    max-width: 800px; /* Adjust as needed */
-    height: auto;
+    max-width: 800px; /* Adjust as needed  */
+    /height: auto;
     aspect-ratio: 2 / 1; /* This maintains a 2:1 aspect ratio for the slideshow */
     margin: 20px auto;
     overflow: hidden;
